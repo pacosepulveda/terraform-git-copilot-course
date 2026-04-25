@@ -21,5 +21,5 @@
     }
   },
 
-  "postCreateCommand": "echo 'Entorno listo para Terraform 🚀'"
+  "postCreateCommand": "bash .devcontainer/install-tools.sh"
 }
