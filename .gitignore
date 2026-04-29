@@ -1,0 +1,22 @@
+# Estado de Terraform
+*.tfstate
+*.tfstate.*
+
+# Directorio de trabajo interno de Terraform
+.terraform/
+
+# Archivos de plan binario
+*.tfplan
+*.binary
+
+# Variables con valores sensibles
+*.tfvars
+
+# Crash logs
+crash.log  
+crash-*.log
+
+# Credenciales y secretos
+.env
+*.env
+secrets.auto.tfvars
